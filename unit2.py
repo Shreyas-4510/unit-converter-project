@@ -19,7 +19,7 @@ variable2=StringVar()
 variable3=StringVar()
 
 def convert():
-    length_factors={'meter':1,'centimeter':0.01,'feet':0.3048,'inches':2.54,'squareft':0.0929,'squaremtr':10.76391042,'acre':4}
+    length_factors={'meter':1,'centimeter':0.01,'feet':0.3048,'inches':2.54,'squareft':0.0929,'squaremtr':10.76391042,'acre':4047}
     mass_factors={'kilogram':1,'gram':0.001,'pound':0.453592}
     try:
         if variable1.get()=='Length':
